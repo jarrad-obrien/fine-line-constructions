@@ -100,7 +100,7 @@ export default function Home() {
       <div className="contact-us">
         <div className="contact-us-top">
           <h2>contact us</h2>
-          <h1>We're Ready To Bring Your<br />Vision To Life</h1>
+          <h1>We&#39;re Ready To Bring Your<br />Vision To Life</h1>
         </div>
         <form>          
           <p>Full Name<br />
