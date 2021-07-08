@@ -297,41 +297,112 @@ footer .social {
 @media (max-width: 970px), (orientation: landscape) and (max-width: 780px) {
 .top-section {
   max-width: 100vw;
+  place-items: unset;
+  padding-top: 100px;
 }
 .top-section-text {
   max-width: 100vw;
+  text-align:left;
+  padding-left: 22px;
+  padding-right: 30px;
 }
-.top-section-text-p {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .who-are-we {
   grid-template-columns: 1fr;
   height: auto;
+}
+.who-are-we-left {
+  order: 2;
+}
+.who-are-we-right {
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .what-we-do {
   grid-template-columns: 1fr;
   height: auto;
 }
+.what-we-do-left {
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.what-we-do-full {
+  place-items:unset;
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.what-we-do-full h1, .what-we-do-full h2 {
+  text-align:left;
+}
 .services {
-  grid-template-columns: 1fr;
+  grid-template-columns:1fr;
   height: auto;
 }
+.services .circles {
+  width: 150px;
+  height: 150px;
+  margin: 40px;
+  clip-path: circle(50%);
+  background-color: goldenrod;
+  background-clip: padding-box;
+  color: goldenrod;
+}
+.services .circles2 {
+width: 150px;
+height: 150px;
+clip-path: circle(44%);
+padding-top: 55px;
+font-size: 24px;
+background-color: black;
+background-clip: padding-box;
+color: goldenrod;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+}
+
 .case-study {
   grid-template-columns: 1fr;
   height: auto;
+}
+.case-study-right {
+  background-color: rgba(235, 235, 235, 1);
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .contact-us, .contact-us h1 {
   max-width: 100vw;
   padding-left: 0;
   padding-right: 0;
 }
+.contact-us {
+  place-items: unset;
+}
 .contact-us-top {
   max-width: 100vw;
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+form input {
+  width: calc(100vw - 22px - 30px);
 }
 form {
   grid-template-columns: 1fr;
   max-width: 100vw;
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  place-items: unset;
 }
 .message {
   grid-template-columns: 1fr;
@@ -340,6 +411,12 @@ form {
 }
 img {
   display: block;
+}
+footer {
+  padding-left: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 }
 
