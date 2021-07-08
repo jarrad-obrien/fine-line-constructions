@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className="who-are-we">
         <div className="who-are-we-left">
-          <img src="who-are-we-image.webp" />
+          <img src="who-are-we-image.webp" alt="Who are we" />
         </div>
         <div className="who-are-we-right">
           <h2>WHO ARE WE</h2>
@@ -35,7 +35,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
         <div className="what-we-do-right">
-          <img src="what-we-do.webp" />
+          <img src="what-we-do.webp" alt="What is do" />
         </div>
       </div>
       <div className="what-we-do-full">
@@ -88,7 +88,7 @@ export default function Home() {
     </div>
     <div className="case-study">
         <div className="case-study-left">
-          <img src="case-study.webp" />
+          <img src="case-study.webp" alt="Case Study" />
         </div>
         <div className="case-study-right">
           <h2>WHO ARE WE</h2>
